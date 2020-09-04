@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="dist/reset.css">
     <link rel="stylesheet" href="dist/reveal.css">
-    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="dist/theme/white.css" id="theme">
 
     <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
@@ -31,9 +31,14 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
-
+        controls: false,
+        progress: false,
+        history: true,
+        center: true,
+        slideNumber: 'c/t',
+        transition: 'none',
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+        plugins: [ RevealHighlight, RevealNotes ]
       });
     </script>
   </body>
