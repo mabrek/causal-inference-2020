@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <title>reveal.js</title>
+        <title>Causal Inference: Introduction</title>
 
         <link rel="stylesheet" href="dist/reset.css">
         <link rel="stylesheet" href="dist/reveal.css">
@@ -35,8 +35,9 @@
                 <section>
                     <h2>Motivation: Dog's Tail</h2>
                     <p>ML problem: make a dog friendly (TODO happy dog with tail image)</p>
-                    <p>you have dataset with dog's features: color, breed, size, wagging its tail</p>
-                    <p>regression shows that tail wagging is the most important feature, so you decide to manually wag this dog's tail (TODO "this dog could name me" meme image)</p>
+                    <p>you have a dataset of dogs' features: color, breed, size, wagging its tail, friendliness</p>
+                    <p>regression shows that tail wagging is the most important feature to predict friendliness</p>
+                    <p>you decide to manually wag this dog's tail (TODO "no you sit! - okay" meme image)</p>
                     <p>YOU DIED</p>
                 </section>
                 <section>
@@ -57,12 +58,45 @@
                 <section>
                     <h2>Causal questions</h2>
                     <ul>
-                        <li>Does X cause Y?</li>
                         <li>Estimating the treatment effect on a population</li>
-                        <li>How much we would sell if we set price X?</li>
+                        <li>Which treatment to choose for a patient</li>
+                        <li>How much we would sell if we set price to X?</li>
                         <li>How much money your model deployment could bring?</li>
+                        <li>Does X cause Y?</li>
+                        <li>What if &hellip;?</li>
                         <li>And the most important question: will a dog be happy if we pet it?</li>
                     </ul>
+                    <p>this doesn't look like a typical supervised ML problem</p>
+                </section>
+                <section>
+                    <h2>Definition</h2>
+                    <p>T causes Y iff changing T leads to a change in Y, keeping everything else constant.</p>
+                    TODO find source of it (Pearl 2009: 70)?
+                </section>
+                <section>
+                    <h2>Rubin Causal Model</h2>
+                    <p>is about potential outcomes (in a world that doesn't exist)</p>
+                    <p>If an hour ago I had taken two aspirins instead of just a glass of water, my headache would now be gone</p>
+                    <p>No causation without manipulation</p>
+                </section>
+                <section>
+                    <h2>Randomized Controlled Trials</h2>
+                    <p>(more known for Internet audience as AB-tests)</p>
+                    <p>gold standard for answering causal questions</p>
+                    <ul>have some problems:
+                        <li>only average population effect</li>
+                        <li>small sizes</li>
+                        <li>non-compliance</li>
+                        <li>dropout</li>
+                        <li>small scale, difficult to generalize</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Observational Stuies</h2>
+                    <p>you have to make assumptions</p>
+                </section>
+                <section>
+                    <h2>Average Treatment Effect and Individual Treatment Effect?</h2>
                 </section>
                 <section>
                     <h2>Q&amp;A</h2>
