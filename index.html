@@ -17,7 +17,7 @@
         <div class="reveal">
             <div class="slides">
                 <section>
-                    <h1>Causal Inference Introduction</h1>
+                    <h1>Causal Inference: Introduction</h1>
                     <p>
                         &copy; 2020 Anton Lebedevich
                     </p>
@@ -30,6 +30,38 @@
                         <li>loves time series and anomalies</li>
                         <li>worked on spam detection, marketing campaign optimization, demand forecasting</li>
                         <li>blogs at <a href="http://mabrek.github.io">mabrek.github.io</a>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Motivation: Dog's Tail</h2>
+                    <p>ML problem: make a dog friendly (TODO happy dog with tail image)</p>
+                    <p>you have dataset with dog's features: color, breed, size, wagging its tail</p>
+                    <p>regression shows that tail wagging is the most important feature, so you decide to manually wag this dog's tail (TODO "this dog could name me" meme image)</p>
+                    <p>YOU DIED</p>
+                </section>
+                <section>
+                    <h2>Motivation: Demand vs. Price</h2>
+                    <p>you have historical sales: prices and quantity sold</p>
+                    <p>you need to find find a price that maximizes total revenue</p>
+                    <p>you build a model with price among other features and quantity sold as target</p>
+                    <p>you find out that higher price leads to more sales</p>
+                    <p>&hellip;</p>
+                    <p>NO PROFIT, because low prices and low sales were there during crisis, and high prices and high sales happended during economic bloom</p>
+                </section>
+                <section>
+                    <h2>Causation</h2>
+                    <p>there is something that you can't find out given the historical data alone</p>
+                    <p>you need to know that beforehand (domain knowledge) or run an experiment</p>
+                    <p>kids learn that hard way (have you tried to wag dog's tail?)</p>
+                </section>
+                <section>
+                    <h2>Causal questions</h2>
+                    <ul>
+                        <li>Does X cause Y?</li>
+                        <li>Estimating the treatment effect on a population</li>
+                        <li>How much we would sell if we set price X?</li>
+                        <li>How much money your model deployment could bring?</li>
+                        <li>And the most important question: will a dog be happy if we pet it?</li>
                     </ul>
                 </section>
                 <section>
