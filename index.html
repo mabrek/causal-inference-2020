@@ -43,16 +43,16 @@
                 <section>
                     <h2>Story: Demand vs. Price</h2>
                     <p>you have historical sales: prices and quantity sold</p>
-                    <p>you need to find find a price that maximizes total revenue</p>
+                    <p>you need to find a price that maximizes total revenue</p>
                     <p>you build a model with price among other features and quantity sold as target</p>
                     <p>you find out that higher price leads to more sales</p>
                     <p>&hellip;</p>
-                    <p>NO PROFIT, because low prices and low sales were there during crisis, and high prices and high sales happended during economic bloom</p>
+                    <p>NO PROFIT, because low prices and low sales were there during crisis, and high prices and high sales happened during economic bloom</p>
                 </section>
                 <section>
                     <h2>Causation</h2>
-                    <p>there is something that you can't find out given the historical data alone</p>
-                    <p>you need to have domain knowledge or run an experiment</p>
+                    <p>there is something that you can't figure out from historical data alone</p>
+                    <p>you need to have domain knowledge or run experiments</p>
                     <p>kids learn that hard way (have you tried to wag dog's tail?)</p>
                 </section>
                 <section>
@@ -77,7 +77,7 @@
                 </section>
                 <section>
                     <h2>Definition</h2>
-                    <p>T causes Y iff changing T leads to a change in Y, keeping everything else constant.</p>
+                    <blockquote>T causes Y iff changing T leads to a change in Y, keeping everything else constant.</blockquote>
                     TODO find source of it (Pearl 2009: 70)?
                     <p>note: the field is in development, there are several ways to look at causality</p>
                 </section>
@@ -89,10 +89,10 @@
                 </section>
                 <section>
                     <h2>The fundamental problem of causal inference</h2>
-                    table of outcomes from wiki (with empty slots for unobserved outcomes)
-                    https://en.wikipedia.org/wiki/Rubin_causal_model#The_fundamental_problem_of_causal_inference
-                    Average Treatment Effect and Individual Treatment Effect
-                    perfect doctor
+                    <p>table of outcomes from wiki (with empty slots for unobserved outcomes)
+                    <p>https://en.wikipedia.org/wiki/Rubin_causal_model#The_fundamental_problem_of_causal_inference
+                    <p>Average Treatment Effect and Individual Treatment Effect
+                    <p>perfect doctor
                 </section>
                 <section>
                     <h2>Causation vs Association</h2>
@@ -117,10 +117,10 @@
                     </ul>
                 </section>
                 <section>
-                    <h2>Observational Stuies</h2>
-                    <p>only if you can't run randomized experiment</p>
+                    <h2>Observational Studies</h2>
+                    <p>use only if you can't run randomized experiment</p>
                     <ul>
-                        <li>you have to make assumptions to get required</li>
+                        <li>you have to make assumptions</li>
                         <li>requires exchangeability, positivity, consistency</li>
                         <li>breaks under unmeasured confounding</li>
                         <li>selection bias</li>
@@ -144,30 +144,69 @@
                 </section>
                 <section>
                     <h2>Causal Diagrams</h2>
-                    TODO image structure of confounding, with and without conditioning
+                    <p>TODO image structure of confounding, with and without conditioning
+                    <p>relation to PGM
                 </section>
+                <section>
+                    <h2>Biases (if timing allows)</h2>
+                    <p>collider bias
+                    <p>confounding (m-shaped bias)
+                    <p>other types of biases (selection, measurements, random)
                 <section>
                     <h2>Methods</h2>
                     <ul>
                         <li>stratification</li>
                         <li>propensity scores (many ways to use)</li>
-                        <li>outcome regression</li>
+                        <li>outcome regression (is my profession)</li>
                         <li>double-robust methods</li>
                         <li>g-estimation</li>
                         <li>instrumental variables</li>
-                        <li>regression discontinuites</li>
+                        <li>regression discontinuities</li>
+                        <li>&hellip; to be continued, active research</li>
                     </ul>
+                </section>
+                <section>
+                    <h2>structural equation models?</h2>
                 </section>
                 <section>
                     <h2>G-estimation</h2>
                     stratification, matching, conditioning doesn't work for complex structure from "An introduction to g methods"
                 </section>
                 <section>
-                    <h2>
+                    <h2>Moar Layers and Moar Data Myth</h2>
+                    <ul>
+                        <li>adding features could add more bias</li>
+                        <li>more data doesn't mean that extra data is unbiased</li>
+                        <li>ml model could throw away your treatment variable</li>
+                        <li>confounders are correlated with causes, incorrect feature importance</li>
+                        <li>regression coefficients are unstable for correlated features</li>
+                        <li>still can't find causation, only association</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>side notes:</h2>
+                    link to counterfactual
+                    off-policy evaluation
                 </section>
                 <section>
                     <h2>Be careful</h2>
                     observational studies have shown to make more mistakes when someone tries to reproduce
+                </section>
+                <section>
+                    <h2>Links</h2>
+                    What If book https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/
+
+                    An introduction to g methods https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6074945/
+
+                    Judea Pearl, Causal inference in statistics: An overview http://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf
+
+                    The Book of Why: The New Science of Cause - Judea Pearl
+
+                    https://causalinference.gitlab.io/kdd-tutorial/
+
+                    Causal Inference Seminar - Peter Tennant-SbrX3YEMj_0.mp4
+
+                    Causal Inference in Online Systems-7ebafe1f-8af3-46a2-8308-a909014772c0.mp4
                 </section>
                 <section>
                     <h2>Q&amp;A</h2>
