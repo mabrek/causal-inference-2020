@@ -60,7 +60,7 @@
                 <section>
                     <h2>Correlation does not imply causation</h2>
                     https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation
-                    <p>inability to legitimately deduce a cause-and-effect relationship between two variables solely on the basis of an observed association or correlation between them</p>
+                    <blockquote>inability to legitimately deduce a cause-and-effect relationship between two variables solely on the basis of an observed association or correlation between them</blockquote>
                     <p>supervised ml models learn association (correlation) not causation (effect of intervention)</p>
                     TODO "but why" meme image
                 </section>
@@ -69,18 +69,8 @@
                     image from What If book
                 </section>
                 <section>
-                    <h2>Randomized Controlled Trials</h2>
-                    <p>(more known for Internet audience as AB-tests)</p>
-                    <p>gold standard for answering causal questions because randomization of treatment breaks unobserved confounders</p>
-                    <ul>have some problems though:
-                        <li>small scale, difficult to generalize</li>
-                        <li>hard to make double-blind surgery</li>
-                        <li>non-compliance</li>
-                        <li>dropout</li>
-                        <li>selection bias</li>
-                        <li>measurement bias</li>
-                        <li>random variability</li>
-                    </ul>
+                    <h2>AB-test vs. Observational Studies</h2>
+                    Drake parrot meme with two versions, initially it prefers AB-tests, but then switches to Observational Studies
                 </section>
                 <section>
                     <h2>Observational Studies</h2>
@@ -89,9 +79,6 @@
                         <li>you have to make assumptions</li>
                         <li>requires exchangeability, positivity, consistency</li>
                         <li>breaks under unmeasured confounding</li>
-                        <li>selection bias</li>
-                        <li>measurement bias</li>
-                        <li>random variability</li>
                     </ul>
                 </section>
                 <section>
@@ -101,7 +88,7 @@
                 </section>
                 <section>
                     <h2>Positivity</h2>
-                    <blockquote>The probability of receiving every value of treatment conditional on L is greater than zero, i.e., positive.</blockquote>
+                    <blockquote>The probability of receiving every value of treatment conditional on L is positive.</blockquote>
                 </section>
                 <section>
                     <h2>Consistency</h2>
@@ -114,10 +101,16 @@
                     <p>relation to PGM
                 </section>
                 <section>
-                    <h2>Biases (if timing allows)</h2>
-                    <p>collider bias
-                    <p>confounding (m-shaped bias)
-                    <p>other types of biases (selection, measurements, random)</p>
+                    <h2>Complicated Bias (M-shaped)</h2>
+                    <p>TODO physical activity and cervical cancer image from What If book
+                </section>
+                <section>
+                    <h2>Selection Bias</h2>
+                    TODO image
+                </section>
+                <section>
+                    <h2>Measurement Bias</h2>
+                    TODO image
                 </section>
                 <section>
                     <h2>Methods</h2>
@@ -127,13 +120,8 @@
                         <li>outcome regression (is my profession)</li>
                         <li>double-robust methods</li>
                         <li>g-estimation</li>
-                        <li>instrumental variables</li>
-                        <li>regression discontinuities</li>
                         <li>&hellip; to be continued, active research</li>
                     </ul>
-                </section>
-                <section>
-                    <h2>structural equation models?</h2>
                 </section>
                 <section>
                     <h2>G-estimation</h2>
@@ -142,18 +130,13 @@
                 <section>
                     <h2>Moar Layers and Moar Data Myth</h2>
                     <ul>
-                        <li>adding features could add more bias</li>
+                        <li>adding features could add more bias (from variable selection What If Book)</li>
                         <li>more data doesn't mean that extra data is unbiased</li>
                         <li>ml model could throw away your treatment variable</li>
                         <li>confounders are correlated with causes, incorrect feature importance</li>
                         <li>regression coefficients are unstable for correlated features</li>
                         <li>still can't find causation, only association</li>
                     </ul>
-                </section>
-                <section>
-                    <h2>side notes:</h2>
-                    link to counterfactual
-                    off-policy evaluation
                 </section>
                 <section>
                     <h2>Be careful</h2>
