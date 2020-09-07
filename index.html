@@ -42,34 +42,20 @@
                 </section>
                 <section>
                     <h2>Story: Sales before Weekend</h2>
-                    <p>you have historical sales of a product per day</p>
-                    <p>TODO weekly pattern graph (medim Mon, good Tue-Wed, medium Thu, small Fri, very small Sat-Sun</p>
-                    <p>need to optimize replenishment based on predicted demand</p>
-                    <p>model predicts low sales on Fri-Sun despite having some items in stock</p>
-                    <p>you decide to send one truck on Monday evening</p>
-                    <p>&hellip;</p>
-                    <p>NO PROFIT, Monday sales dropped</p>
-                    <p>the product expires in one week, so ppl don't want to stockpile soon to be expired product for weekend</p>
-                    <p>it was better to send two trucks on Mon and Thu morning</p>
+                    <p>you have historical sales of a product per day<br/>
+                    TODO weekly pattern graph (medim Mon, good Tue-Wed, medium Thu, small Fri, very small Sat-Sun<br/>
+                    need to optimize replenishment based on predicted demand<br/>
+                    model predicts low sales on Fri-Sun despite having some items in stock<br/>
+                    you decide to send one truck on Monday evening<br/>
+                    NO PROFIT, Monday sales dropped<br/>
+                    the product expires in one week, so ppl don't want to stockpile soon to be expired product for weekend<br/>
+                    it was better to send two trucks on Mon and Thu morning<br/>
                 </section>
                 <section>
                     <h2>Causation</h2>
                     <p>there is something that you can't figure out from historical data alone</p>
                     <p>you need to have domain knowledge or run experiments</p>
                     <p>kids learn that hard way (have you tried to wag dog's tail?)</p>
-                </section>
-                <section>
-                    <h2>Causal questions</h2>
-                    <ul>
-                        <li>Estimating the treatment effect on a population</li>
-                        <li>Which treatment to choose for a patient?</li>
-                        <li>How many items will be sold if we set price to X?</li>
-                        <li>How much money your model deployment could bring?</li>
-                        <li>Does X cause Y?</li>
-                        <li>What if &hellip;?</li>
-                        <li>And the most important question: will a dog be happy if we pet it?</li>
-                    </ul>
-                    <p>this doesn't look like a typical supervised ML problem</p>
                 </section>
                 <section>
                     <h2>Correlation does not imply causation</h2>
@@ -79,31 +65,8 @@
                     TODO "but why" meme image
                 </section>
                 <section>
-                    <h2>Definition</h2>
-                    <blockquote>T causes Y iff changing T leads to a change in Y, keeping everything else constant.</blockquote>
-                    TODO find source of it (Pearl 2009: 70)?
-                    <p>note: the field is in development, there are several ways to look at causality</p>
-                </section>
-                <section>
-                    <h2>Rubin Causal Model</h2>
-                    <p>is about potential outcomes</p>
-                    <blockquote>If an hour ago I had taken two aspirins instead of just a glass of water, my headache would now be gone</blockquote>
-                    <p>note: no causation without intervention</p>
-                </section>
-                <section>
-                    <h2>The fundamental problem of causal inference</h2>
-                    <p>table of outcomes from wiki (with empty slots for unobserved outcomes)
-                    <p>https://en.wikipedia.org/wiki/Rubin_causal_model#The_fundamental_problem_of_causal_inference
-                    <p>Average Treatment Effect and Individual Treatment Effect
-                    <p>perfect doctor
-                </section>
-                <section>
                     <h2>Causation vs Association</h2>
                     image from What If book
-                </section>
-                <section>
-                    <h2>note: Granger causality is different</h2>
-                    <p>Rather than testing whether X causes Y, the Granger causality tests whether X forecasts Y </p>
                 </section>
                 <section>
                     <h2>Randomized Controlled Trials</h2>
