@@ -36,4 +36,14 @@
     <tspan x="880" y="-290">Sun</tspan>
   </text>
   <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #00ff00" points="640,-380 680,-380 720,-340 760,-380 800,-380 840,-340 880,-330 "/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #00ff00" x1="640" y1="-307.382" x2="640" y2="-300"/>
+    <polygon style="fill: #00ff00" points="640,-308.882 641,-306.882 640,-307.382 639,-306.882 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #00ff00" points="640,-308.882 641,-306.882 640,-307.382 639,-306.882 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #00ff00" x1="760" y1="-307.382" x2="760" y2="-300"/>
+    <polygon style="fill: #00ff00" points="760,-308.882 761,-306.882 760,-307.382 759,-306.882 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #00ff00" points="760,-308.882 761,-306.882 760,-307.382 759,-306.882 "/>
+  </g>
 </svg>
