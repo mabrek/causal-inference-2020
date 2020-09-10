@@ -23,10 +23,7 @@
     <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="167.776,99 169.776,98 167.776,97 "/>
   </g>
   <rect style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" x="136" y="72" width="28" height="6"/>
-  <g>
-    <path style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke-dasharray: 2; stroke: #000000" d="M 171.755,93.6261 A 26.1667,26.1667 0 0 0 128,94"/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="169.955,92.6719 171.879,93.812 171.637,91.5891 "/>
-  </g>
+  <path style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke-dasharray: 2; stroke: #000000" d="M 172,94 A 26.1667,26.1667 0 0 0 128,94"/>
   <text font-size="2.82222" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="150" y="83.0592">
     <tspan x="150" y="83.0592">X</tspan>
   </text>
