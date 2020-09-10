@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="4cm" height="2cm" viewBox="109 71 80 30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <text font-size="3.95105" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="150" y="76">
+    <tspan x="150" y="76">Confounder</tspan>
+  </text>
+  <text font-size="3.95105" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="120" y="100">
+    <tspan x="120" y="100">Treatment</tspan>
+  </text>
+  <text font-size="3.95105" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="180" y="100">
+    <tspan x="180" y="100">Outcome</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" x1="120" y1="96" x2="135.703" y2="78.3343"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="135.27,80.3263 135.851,78.1671 133.775,78.9976 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" x1="164" y1="78" x2="179.703" y2="95.6657"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="177.775,95.0024 179.851,95.8329 179.27,93.6737 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" x1="132" y1="98" x2="169.553" y2="98"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="167.776,99 169.776,98 167.776,97 "/>
+  </g>
+  <rect style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" x="136" y="72" width="28" height="6"/>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke-dasharray: 2; stroke: #000000" d="M 171.755,93.6261 A 26.1667,26.1667 0 0 0 128,94"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="169.955,92.6719 171.879,93.812 171.637,91.5891 "/>
+  </g>
+  <text font-size="2.82218" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="150" y="83.0593">
+    <tspan x="150" y="83.0593">X</tspan>
+  </text>
+</svg>
