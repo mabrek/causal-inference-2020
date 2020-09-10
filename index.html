@@ -173,7 +173,11 @@
                                 <img src="img/2020-fest-bl-c.png"/>
                             </td>
                             <td style="text-align: center; border-bottom: none; vertical-align: middle;">
-                                AB-tests
+                                <p>AB-tests</p>
+                                <ul>
+                                    <li>randomization of treatment breaks hidden dependencies</li>
+                                    <li>TODO</li>
+                                </ul>
                             </td>
                         </tr>
                         <tr>
@@ -181,7 +185,11 @@
                                 <img src="img/2020-fest-tl-c.png"/>
                             </td>
                             <td style="text-align: center; border-bottom: none; vertical-align: middle;">
-                                Observational Studies
+                                <p>Observational Studies</p>
+                                <ul>
+                                    <li>causal structure is assumed, not tested by intervention</li>
+                                    <li>hidden dependencies introduce bias</li>
+                                </ul>
                             </td>
                         </tr>
                     </table>
@@ -193,7 +201,13 @@
                                 <img src="img/2020-fest-tl-c.png"/>
                             </td>
                             <td style="text-align: center; border-bottom: none; vertical-align: middle;">
-                                AB-tests
+                                <p>AB-tests</p>
+                                <ul>
+                                    <li>difficult to make double blind surgery</li>
+                                    <li>non-adherence in clinical trials</li>
+                                    <li>small sizes, limited geography</li>
+                                    <li>too long or expensive</li>
+                                </ul>
                             </td>
                         </tr>
                         <tr>
@@ -201,7 +215,10 @@
                                 <img src="img/2020-fest-bl-c.png"/>
                             </td>
                             <td style="text-align: center; border-bottom: none; vertical-align: middle;">
-                                Observational Studies
+                                <p>Observational Studies</p>
+                                <ul>
+                                    <li>you can use historical data</li>
+                                </ul>
                             </td>
                         </tr>
                     </table>
@@ -217,12 +234,11 @@
                 </section>
                 <section>
                     <h2>Exchangeability</h2>
-                    <blockquote>The conditional probability of receiving every value of treatment, though not decided by the investigators, depends only on measured covariates L</blockquote>
-                    TODO formula
+                    <blockquote>The conditional probability of receiving every value of treatment, though not decided by the investigators, depends only on measured covariates</blockquote>
                 </section>
                 <section>
                     <h2>Positivity</h2>
-                    <blockquote>The probability of receiving every value of treatment conditional on L is positive.</blockquote>
+                    <blockquote>The probability of receiving every value of treatment conditional on covariates is positive.</blockquote>
                 </section>
                 <section>
                     <h2>Consistency</h2>
