@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="4cm" height="2cm" viewBox="164 101 80 34" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <text font-size="3.95111" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="175" y="105">
+    <tspan x="175" y="105">Treatment</tspan>
+  </text>
+  <text font-size="3.95111" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="235" y="105">
+    <tspan x="235" y="105">Outcome</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" x1="187" y1="104" x2="224.553" y2="104"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="222.776,105 224.776,104 222.776,103 "/>
+  </g>
+  <path style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke-dasharray: 2; stroke: #000000" d="M 181,108 A 25.9167,25.9167 0 0 0 228,109"/>
+  <text font-size="3.95111" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="205" y="133">
+    <tspan x="205" y="133">Common Effect</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" x1="175" y1="107" x2="188.76" y2="128.623"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="186.963,127.661 188.88,128.811 188.65,126.587 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" x1="235" y1="107" x2="221.24" y2="128.623"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="221.35,126.587 221.12,128.811 223.037,127.661 "/>
+  </g>
+  <rect style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" x="189" y="129" width="32" height="6"/>
+</svg>
