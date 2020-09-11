@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="8cm" height="4cm" viewBox="53 46 151 63" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <text font-size="3.95111" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="130" y="50">
+    <tspan x="130" y="50">pre-cancer lesion</tspan>
+  </text>
+  <text font-size="3.95111" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="70" y="80">
+    <tspan x="70" y="80">diagnostic test</tspan>
+  </text>
+  <text font-size="3.95111" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="130" y="108">
+    <tspan x="130" y="108">health-consious</tspan>
+  </text>
+  <text font-size="3.95111" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="130" y="80">
+    <tspan x="130" y="80">physical activity</tspan>
+  </text>
+  <text font-size="3.95111" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="190" y="80">
+    <tspan x="190" y="80">cervical cancer</tspan>
+  </text>
+  <rect style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #ffffff" x="54" y="74" width="32" height="10"/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" x1="114" y1="104" x2="86.3639" y2="84.2599"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="88.3907,84.4787 86.182,84.13 87.2282,86.1062 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" x1="130" y1="104" x2="130" y2="82.4472"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="131,84.2236 130,82.2236 129,84.2236 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" x1="148" y1="78" x2="171.553" y2="78"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="169.776,79 171.776,78 169.776,77 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" x1="112" y1="50" x2="86.3286" y2="73.6967"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="86.9556,71.757 86.1643,73.8483 88.3122,73.2266 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" x1="148" y1="50" x2="189.62" y2="75.7646"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="187.583,75.6799 189.81,75.8823 188.636,73.9793 "/>
+  </g>
+  <text font-size="3.95111" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="158" y="76">
+    <tspan x="158" y="76">?</tspan>
+  </text>
+</svg>
