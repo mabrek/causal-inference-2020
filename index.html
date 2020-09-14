@@ -35,13 +35,13 @@
                 <section>
                     <h2>Outline</h2>
                     <ul>
-                        <li>Stories when supervised learning is not enough.</li>
-                        <li>Difference between causation and association.</li>
-                        <li>What to do if you only have historical data.</li>
-                        <li>Causal diagrams.</li>
-                        <li>Methods.</li>
-                        <li>Warnings.</li>
-                        <li>Where to go next.</li>
+                        <li>when supervised learning is not enough</li>
+                        <li>causation vs. association</li>
+                        <li>dealing with historical data</li>
+                        <li>causal diagrams</li>
+                        <li>inference methods</li>
+                        <li>warnings</li>
+                        <li>where to go next</li>
                     </ul>
                 </section>
                 <section>
@@ -116,15 +116,15 @@
                     <p style="font-size: 20px; font-style: italic;"><a href="https://commons.wikimedia.org/wiki/File:ISUZU_GIGAMAX,_Semi-Trailer.jpg" title="via Wikimedia Commons">Mj-bird</a> / <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA</a></p>
                 </section>
                 <section>
-                    <ul>
-                        <li>Usually truck arrives on Monday noon.</li>
-                        <li>Model predicts low sales on Fri-Sun despite having some items in stock.</li>
-                        <li>You decide to send one truck on Monday evening.</li>
-                        <li>&hellip;</li>
-                        <li>NO PROFIT, Monday sales dropped.</li>
-                        <li>The product expires in one week,<br/>
-                            customers don't want to stockpile soon to be expired product for a weekend</li>
-                    </ul>
+                    <p style="text-align: left; display: inline-block;">
+                        Usually truck arrives on Monday noon.<br/>
+                        Model predicts low sales on Fri-Sun despite having some items in stock.<br/>
+                        You decide to send one truck on Monday evening.<br/>
+                        &hellip;<br/>
+                        NO PROFIT, Monday sales dropped.<br/>
+                        The product expires in one week,<br/>
+                        customers don't want to stockpile soon to be expired product for a weekend<br/>
+                    </p>
                 </section>
                 <section>
                     <h2>better to send two trucks</h2>
@@ -143,9 +143,9 @@
                     <p>Kids learn that hard way (have you tried to wag a dog's tail?)</p>
                 </section>
                 <section>
-                    <h2>Causal questions</h2>
+                    <h2>Causal questions:</h2>
                     <ul>
-                        <li>Estimating the treatment effect on a population.</li>
+                        <li>Estimate the treatment effect on a population.</li>
                         <li>Which treatment to choose for a patient?</li>
                         <li>How many items will be sold if we set price to X?</li>
                         <li>How much money your model deployment could bring?</li>
@@ -180,27 +180,27 @@
                 <section>
                     <table>
                         <tr>
-                            <td style="text-align: center; border-bottom: none; vertical-align: middle;">
+                            <td style="text-align: left; border-bottom: none; vertical-align: middle;">
                                 <img src="img/2020-fest-bl-c.png"/>
                             </td>
-                            <td style="text-align: center; border-bottom: none; vertical-align: middle;">
-                                <p>AB-tests (Randomised Controlled Trials)</p>
+                            <td style="text-align: left; border-bottom: none; vertical-align: middle;">
+                                <h4>AB-tests (Randomised Controlled Trials)</h4>
                                 <ul>
                                     <li>&quot;gold standard&quot;</li>
                                     <li>real intervention to test causation</li>
-                                    <li>randomization breaks unwanted dependencies</li>
+                                    <li>randomization breaks unwanted associations</li>
                                 </ul>
                             </td>
                         </tr>
                         <tr>
-                            <td style="text-align: center; border-bottom: none; vertical-align: middle;">
+                            <td style="text-align: left; border-bottom: none; vertical-align: middle;">
                                 <img src="img/2020-fest-tl-c.png"/>
                             </td>
-                            <td style="text-align: center; border-bottom: none; vertical-align: middle;">
-                                <p>Observational Studies</p>
+                            <td style="text-align: left; border-bottom: none; vertical-align: middle;">
+                                <h4>Observational Studies</h4>
                                 <ul>
                                     <li>causal structure is assumed, not tested by an intervention</li>
-                                    <li>hidden dependencies introduce bias</li>
+                                    <li>unmeasured confounding introduces bias</li>
                                 </ul>
                             </td>
                         </tr>
@@ -209,11 +209,11 @@
                 <section>
                     <table>
                         <tr>
-                            <td style="text-align: center; border-bottom: none; vertical-align: middle;">
+                            <td style="text-align: left; border-bottom: none; vertical-align: middle;">
                                 <img src="img/2020-fest-tl-c.png"/>
                             </td>
-                            <td style="text-align: center; border-bottom: none; vertical-align: middle;">
-                                <p>AB-tests (Randomised Controlled Trials)</p>
+                            <td style="text-align: left; border-bottom: none; vertical-align: middle;">
+                                <h4>AB-tests (Randomised Controlled Trials)</h4>
                                 <ul>
                                     <li>difficult to make double-blind surgery</li>
                                     <li>non-adherence in clinical trials</li>
@@ -223,11 +223,11 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style="text-align: center; border-bottom: none; vertical-align: middle;">
+                            <td style="text-align: left; border-bottom: none; vertical-align: middle;">
                                 <img src="img/2020-fest-bl-c.png"/>
                             </td>
-                            <td style="text-align: center; border-bottom: none; vertical-align: middle;">
-                                <p>Observational Studies</p>
+                            <td style="text-align: left; border-bottom: none; vertical-align: middle;">
+                                <h4>Observational Studies</h4>
                                 <ul>
                                     <li>you can use historical data</li>
                                 </ul>
@@ -293,45 +293,43 @@
                 </section>
                 <section>
                     <h2>Moar Layers and Moar Data Myth</h2>
-                    <ul>
-                        <li>Adding features could add more bias.</li>
-                        <li>More data doesn't mean that extra data is unbiased.</li>
-                        <li>ML model could throw away your treatment variable.</li>
-                        <li>Confounders are correlated with causes, incorrect feature importance.</li>
-                        <li>Regression coefficients are unstable for correlated features.</li>
-                        <li>Still can't find causation, only association.</li>
-                    </ul>
+                    <p style="text-align: left; display: inline-block;">
+                        Adding features could add more bias.<br/>
+                        More data doesn't mean that extra data is unbiased.<br/>
+                        ML model could throw away your treatment variable.<br/>
+                        Confounders are correlated with causes, incorrect feature importance.<br/>
+                        Regression coefficients are unstable for correlated features.<br/>
+                        Still can't find causation, only association&hellip;<br/>
+                    </p>
                 </section>
                 <section>
                     <h2>Do Observational Studies Work?</h2>
-                    <p>Success:
-                        <ul>
-                            <li><a href="https://pubmed.ncbi.nlm.nih.gov/22711757/">&quot;Do observational studies using propensity score methods agree with randomized trials? A systematic comparison of studies on acute coronary syndromes&quot; Dahabreh et al. 2012</a></li>
-                            <li><a href="https://pubmed.ncbi.nlm.nih.gov/26086943/">&quot;Can We Trust Observational Studies Using Propensity Scores in the Critical Care Literature? A Systematic Comparison With Randomized Clinical Trials&quot; Kitsios et al. 2015</a></li>
-                            <li><a href="https://pubmed.ncbi.nlm.nih.gov/24782322/">&quot;Healthcare outcomes assessed with observational study designs compared with those assessed in randomized trials&quot; Anglemeyer et al. 2014</a></li>
-                        </ul>
+                    <p>Success:</p>
+                    <p style="text-align: left; display: inline-block;">
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/22711757/">&quot;Do observational studies using propensity score methods agree with randomized trials? A systematic comparison of studies on acute coronary syndromes&quot; Dahabreh et al. 2012</a><br/>
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/26086943/">&quot;Can We Trust Observational Studies Using Propensity Scores in the Critical Care Literature? A Systematic Comparison With Randomized Clinical Trials&quot; Kitsios et al. 2015</a><br/>
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/24782322/">&quot;Healthcare outcomes assessed with observational study designs compared with those assessed in randomized trials&quot; Anglemeyer et al. 2014</a><br/>
                     </p>
-                    <p>Failure:
-                        <ul>
-                            <li><a href="https://www.kellogg.northwestern.edu/faculty/gordon_b/files/fb_comparison.pdf">&quot;A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook&quot; Gordon et al., 2018</a></li>
-                        </ul>
+                    <p>Failure:</p>
+                    <p style="text-align: left; display: inline-block;">
+                        <a href="https://www.kellogg.northwestern.edu/faculty/gordon_b/files/fb_comparison.pdf">&quot;A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook&quot; Gordon et al., 2018</a>
                     </p>
                 </section>
                 <section>
                     <h2>Links</h2>
                     <ul>
-                        <li><a href="https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/"> Hernán MA, Robins JM (2020). Causal Inference: What If. Boca Raton: Chapman & Hall/CRC</a></li>
-                        <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6074945/">&quot;An introduction to g methods&quot; Ashley I Naimi et al. 2017</a></li>
-                        <li><a href="http://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf">&quot;Causal inference in statistics: An overview&quot; Judea Pearl</a></li>
-                        <li><a href="https://causalinference.gitlab.io/kdd-tutorial/">causalinference.gitlab.io/kdd-tutorial/</a></li>
+                        <a href="https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/"> Hernán MA, Robins JM (2020). Causal Inference: What If. Boca Raton: Chapman & Hall/CRC</a><br/>
+                        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6074945/">&quot;An introduction to g methods&quot; Ashley I Naimi et al. 2017</a><br/>
+                        <a href="http://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf">&quot;Causal inference in statistics: An overview&quot; Judea Pearl</a><br/>
+                        <a href="https://causalinference.gitlab.io/kdd-tutorial/">causalinference.gitlab.io/kdd-tutorial/</a><br/>
 
-                        <li><a href="https://www.youtube.com/watch?v=SbrX3YEMj_0">Causal Inference Seminar - Peter Tennant</a></li>
-                        <li><a href="https://github.com/amit-sharma/causal-inference-tutorial">&quot;Causal Inference in Online Systems&quot; tutorial by Amit Sharma at IC2S2</a></li>
+                        <a href="https://www.youtube.com/watch?v=SbrX3YEMj_0">Causal Inference Seminar - Peter Tennant</a><br/>
+                        <a href="https://github.com/amit-sharma/causal-inference-tutorial">&quot;Causal Inference in Online Systems&quot; tutorial by Amit Sharma at IC2S2</a><br/>
                 </section>
                 <section>
                     <h2>In Conclusion</h2>
                     <ul>
-                        <li>You can't simply run fit/predict to answer 'What If' question.</li>
+                        <li>You can't simply run fit/predict to answer &quot;What If &hellip;&quot; question.</li>
                         <li>There are many ways to get incorrect answers.</li>
                         <li>You can get better answers if you take causality into account.</li>
                     </ul>
